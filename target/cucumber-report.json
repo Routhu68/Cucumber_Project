@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1025387700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have launched the simplilearn application",
+            "match": {
+              "location": "stepdefs.Login_Stepdefs.i_have_launched_the_simplilearn_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6176031500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login Link",
+            "match": {
+              "location": "stepdefs.Login_Stepdefs.i_click_on_the_Login_Link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-13T14:47:10.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1596554200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login Failure Scenario using test data as parameter",
+        "description": "",
+        "id": "login-feature;login-failure-scenario-using-test-data-as-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 254808100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104821800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the Username \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefs.Login_Stepdefs.i_enter_the_Username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59037900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter the Password \"Abc@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abc@12345\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefs.Login_Stepdefs.i_enter_the_Password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79150700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "stepdefs.Login_Stepdefs.i_click_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1864344000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to see the error message \"The email address or password you have entered is invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The email address or password you have entered is invalid\"",
+                  "offset": 42
+                }
+              ],
+              "location": "stepdefs.Login_Stepdefs.i_should_be_able_to_see_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
